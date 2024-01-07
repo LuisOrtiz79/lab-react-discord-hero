@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  background-color: #747bff;
+  margin: 0;
+  width: 90vw;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+}
+
+.img-logo {
+  width: 10%;
+  height: 10%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.img-menu {
+  margin-top: 2%;
+  margin-right: 4%;
+}
+
+.body-info,
+.body-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* This allows both elements to take equal space */
+}
+
+.body-info {
+  width: 40%;
+  height: 25%;
+  padding-right: 10%;
+}
+
+.body-img {
+  padding-top: 27.5%;
+  width: 10vw;
+  height: 15vh;
+}
+
+.button-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+  margin: 0;
+}
+
+#button1,
+#button2 {
+  border-radius: 20px;
+}
+
+#button1 {
+  color:black;
+  background-color: white;
+}
+
+#button2 {
+  color: white;
+  background-color: black;
+}
